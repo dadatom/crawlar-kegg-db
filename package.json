@@ -1,0 +1,34 @@
+{
+  "name": "crawlar-kegg-db",
+  "version": "1.0.0",
+  "description": "Crawler program for keeg.jp database. For learning only.",
+  "main": "./script/app.ts",
+  "scripts": {
+    "start": "npx ts-node ./script/app.ts"
+  },
+  "author": "Wang Da",
+  "license": "MIT",
+  "dependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/inquirer": "^8.1.3",
+    "cheerio": "^1.0.0-rc.10",
+    "crawler": "^1.3.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.2.0",
+    "progress": "^2.0.3",
+    "sequelize": "^7.0.0-alpha.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
